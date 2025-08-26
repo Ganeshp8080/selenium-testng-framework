@@ -1,0 +1,13 @@
+# Ignore log files
+*.log
+
+# Ignore build folders
+target/
+build/
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore OS files
+.DS_Store
