@@ -22,6 +22,8 @@ public final class OrageHRMTests extends BaseTest {
 				.clickLogoutButton().getPageTitle();
 		Assertions.assertThat(pageTitle).isEqualTo("OrangeHRM");
 		System.out.println("conflict");
+        System.out.println("conflict1");
+        System.out.println("conflict2");
 
 
 	}
