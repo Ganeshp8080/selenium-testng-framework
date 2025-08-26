@@ -24,6 +24,8 @@ public final class OrageHRMTests extends BaseTest {
 		System.out.println("conflict");
         System.out.println("conflict1");
         System.out.println("conflict2");
+        System.out.println("conflict3");
+        System.out.println("conflict4");
 
 
 	}
