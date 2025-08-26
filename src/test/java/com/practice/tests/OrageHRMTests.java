@@ -21,6 +21,7 @@ public final class OrageHRMTests extends BaseTest {
 				.enterPassword(PropertyUtil.get(ConfigProperties.PASSWORD)).clickLogin().clickProfileDropdown()
 				.clickLogoutButton().getPageTitle();
 		Assertions.assertThat(pageTitle).isEqualTo("OrangeHRM");
+		System.out.println("conflict");
 
 	}
 
