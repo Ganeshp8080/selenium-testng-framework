@@ -22,6 +22,7 @@ public final class OrageHRMTests extends BaseTest {
 				.clickLogoutButton().getPageTitle();
 		Assertions.assertThat(pageTitle).isEqualTo("OrangeHRM");
 
+
 	}
 
 }
